@@ -1,0 +1,177 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+}
+body{
+
+    margin-left:15%;
+    margin-right:15%;
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 1fr;
+}
+#header{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 42px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration-line:underline ;
+    margin-top:40px;
+    margin-bottom: 40px;
+}
+#menu{
+    text-align: right;
+    margin-top:49px;
+}
+#menu ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li{
+    display: inline-block;
+    margin-left: 20px;
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color:#070f18 ;
+    
+}
+a{
+    text-decoration-line: none;
+}
+#menu a{
+    text-decoration-line: none;
+    text-decoration-color: #070f18;
+    color:#070f18
+}
+#button{
+    width: 180px;
+    height: 48px;
+    border-radius: 50px;
+    background: #1F7CFF;
+    padding: 10px 25px 10px 25px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#profile h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 45px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: left;
+   
+}
+#profile p {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #575455;
+    margin-bottom:50px;
+}
+#profileimg{
+    margin-left: 42px;
+    margin-bottom: 50px;
+    max-width: 400px;
+    
+}
+#profileimg img {
+    width: 100%;
+}
+.clientelogo{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#cliente{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+h2.red{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: #F75C4E;
+}
+h1.black{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 54px;
+    letter-spacing: 0em;
+
+}
+p.gray{
+    
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    color: #575455;
+}
+#serviçostitle{
+    text-align: center;
+    margin-top: 65px;
+    margin-bottom: 65px;
+}
+.serviços{
+    text-align: center;
+  
+}
+.serviços img{
+    width: 50px;
+}
+.serviços h1{
+    font-size: 18px;
+    line-height: 20px;
+}
+
+#meeting img {
+    width: 100%;
+}
+.container #meeting , #forms{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#forms input{
+    width: 380px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #EFF8FB;
+    border: none;
+    padding-left: 30px;
+
+}
+#forms{
+    margin-left: 60px;
+}
+#forms button{
+    width: 180px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: #1F7CFF;
+    color: white;
+    border: none;
+
+}
+#titleportf{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.imgportf img{
+    text-align: center;
+    width: 100%;
+}
+.imgportf{
+    margin: 20px 20px 180px 20px;
+}
