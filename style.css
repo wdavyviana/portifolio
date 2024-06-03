@@ -59,6 +59,8 @@ a{
     padding: 10px 25px 10px 25px;
     color: white;
     font-family: 'Poppins', sans-serif;
+    position: relative;
+    top: 40px;
 }
 #profile h1{
     font-family: 'Poppins', sans-serif;
@@ -174,4 +176,8 @@ p.gray{
 }
 .imgportf{
     margin: 20px 20px 180px 20px;
+}
+#app{
+    font-weight: 500;
+    font-size: 20spx;
 }
