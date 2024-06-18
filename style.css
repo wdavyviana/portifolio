@@ -103,12 +103,12 @@ h2.red{
     font-weight: 700;
     line-height: 24px;
     letter-spacing: 0em;
-    color: #F75C4E;
+    color: #2a8c00;
 }
 h1.black{
     color: black;
-    font-size: 30px;
-    font-weight: 700;
+    font-size: 35px;
+    font-weight: 800;
     line-height: 54px;
     letter-spacing: 0em;
 
@@ -131,7 +131,7 @@ p.gray{
   
 }
 .serviços img{
-    width: 50px;
+    width: 50px;   
 }
 .serviços h1{
     font-size: 18px;
